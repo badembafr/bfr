@@ -26,8 +26,6 @@ $config = $requete->fetch();
 <body>
     <?php include '../includes/navbar.php' ?>
 
-    
-
     <?php include '../includes/pc.php' ?>
     
     <?php include('../includes/bench.php') ?>
