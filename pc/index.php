@@ -1,3 +1,5 @@
+<?php include '../includes/host.php' ?>
+
 <?php
 $bdd = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8;", $id, $passwd);
 $requete = $bdd->query("SELECT * FROM `config` ORDER BY prix");
