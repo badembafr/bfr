@@ -1,0 +1,24 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jaje2231/public_html/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -r css $DEPLOYPATH
+    - /bin/cp -r js $DEPLOYPATH
+    - /bin/cp -r medias $DEPLOYPATH
+    - /bin/cp -r includes $DEPLOYPATH
+
+    - /bin/cp -r 400 $DEPLOYPATH
+    - /bin/cp -r 600 $DEPLOYPATH
+    - /bin/cp -r 900 $DEPLOYPATH
+    - /bin/cp -r 1200 $DEPLOYPATH
+    - /bin/cp -r 1500 $DEPLOYPATH
+    - /bin/cp -r 2000 $DEPLOYPATH
+
+    - /bin/cp -r s1000 $DEPLOYPATH
+    - /bin/cp -r s1800 $DEPLOYPATH
+
+    - /bin/cp -r gaming $DEPLOYPATH
+    - /bin/cp -r multi $DEPLOYPATH
+    - /bin/cp -r bureau $DEPLOYPATH
+    - /bin/cp -r pc $DEPLOYPATH
