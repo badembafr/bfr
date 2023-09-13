@@ -1,10 +1,10 @@
 <?php
-$bdd = new PDO('mysql:host=localhost;dbname=bfr;charset=utf8;', 'root', 'root');
+$bdd = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8;", $id, $passwd);
 $requete = $bdd->query("SELECT * FROM `config` ORDER BY prix");
 ?>
 
 <?php
-$bdd = new PDO('mysql:host=localhost;dbname=bfr;charset=utf8;', 'root', 'root');
+$bdd = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8;", $id, $passwd);
 $requete2 = $bdd->query("SELECT * FROM `config` WHERE pop='hight' ORDER BY prix LIMIT 4");
 ?>
 
