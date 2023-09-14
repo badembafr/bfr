@@ -948,6 +948,12 @@ ul li p
   border-top: var(--border);
 }
 
+.footer .aff p{
+  color: rgb(189, 189, 189);
+  font-size: 12px;
+}
+
+
 .footer .credit span{
   color:var(--gris);
 }
@@ -1605,9 +1611,7 @@ img
 
 img:hover
 { 
--ms-transform: scale(1.1); /* IE 9 */
--webkit-transform: scale(1.1); /* Safari 3-8 */
-transform: scale(1.1);
+  
 }
 
 
@@ -2214,6 +2218,20 @@ iframe{
 .footer .credit span{
   color:var(--gris);
 }
+
+
+.footer .aff p{
+  color: rgb(189, 189, 189);
+  font-size: 11px;
+  text-align: center;
+}
+
+
+.footer .credit span{
+  color:var(--gris);
+}
+
+
 /* BAS DE PAGE FIN */
 
 /* IMAGE GPU FIN*/

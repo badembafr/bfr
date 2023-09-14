@@ -2,7 +2,7 @@
   <div class="box-container">
       <div class="box">
           <h3>BaDemBa.fr</h3>
-          <p>Conception de PC sur mesure !</p>
+          <p>Conception de PC sur mesure.</p>
           <div class="share">
               <a target="_blank"   href="https://tiktok.com/@badembafr" class="fab fa-tiktok"></a>
               <a target="_blank" href="https://twitter.com/badembafr" class="fab fa-twitter"></a>
@@ -25,5 +25,12 @@
 
       </div>
   </div>
-  <div class="credit">© 2023 Tous droits réservés BaDemBa.fr</div>
+  <div class="credit">
+    © 2023 Tous droits réservés BaDemBa.fr
+    <div class="aff"><p class="aff">bademba.fr participe au Programme Partenaires d’Amazon EU, un programme d’affiliation conçu pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr.</p></div>
+    <div class="aff"><p class="aff">Amazon et le logo Amazon sont des marques d’Amazon.com, Inc. ou de ses affiliés.</p></div>
+    </div>
+
+  
+  
 </section>

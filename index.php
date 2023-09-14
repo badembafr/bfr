@@ -16,7 +16,7 @@ $requete2 = $bdd->query("SELECT * FROM `config` WHERE pop='hight' ORDER BY prix 
     <meta name="category" content="informatique">
     <meta name="keywords" content="Bademba, étudiant en licence informatique, développement web, hardware, cybersecurité, informatique, développeur web, réalisations, projets en cours, bademba.fr">
     <meta name="description" content="Bademba, étudiant en licence informatique, partage ses passions et ses projets sur bademba.fr. Découvrez comment il fusionne ses connaissances universitaires avec ses intérêts pour l'hardware et le développement web. Visitez bademba.fr pour en savoir plus sur ses réalisations et ses projets en cours.">
-    <title>Bademba.fr : Conception de PC sur mesure !</title>
+    <title>Bademba.fr : Conception de PC sur mesure.</title>
     <link rel="shortcut icon" href="medias/favicon.ico" />
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>

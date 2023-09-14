@@ -10,6 +10,6 @@
 <div class="img-gpu">
   <img src="../medias/gpucheck.png" alt=""><p>
     <a target="_blank" href="https://www.tomshardware.com/reviews/gpu-hierarchy,4388.html">GPU Benchmarks and Hierarchy 2023: Graphics Cards Ranked</a></p>
-    <a target="_blank" href="https://cdn.mos.cms.futurecdn.net/q56doGjaC7kHDZkQvjJpZh.png"><i class="fa-regular fa-share-from-square"></i>Ouvrir en grand</a></p> 
+    <a target="_blank" href="https://bademba.fr/medias/gpucheck.png"><i class="fa-regular fa-share-from-square"></i>Ouvrir en grand</a></p> 
 </div>
 </section>

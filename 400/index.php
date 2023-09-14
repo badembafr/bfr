@@ -4,7 +4,7 @@
 
 $bdd = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8;", $id, $passwd);
 
-$requete = $bdd->query("SELECT * FROM `config` WHERE id='1' ");
+$requete = $bdd->query("SELECT * FROM `config` WHERE id='9' ");
 
 $config = $requete->fetch();
 
