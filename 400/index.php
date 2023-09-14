@@ -1,16 +1,14 @@
 <?php  include '../includes/host.php'  ?>
 
-
 <?php 
 
 $bdd = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8;", $id, $passwd);
 
-$requete = $bdd->query("SELECT * FROM `config` WHERE id='9' ");
+$requete = $bdd->query("SELECT * FROM `config` WHERE id='1' ");
 
 $config = $requete->fetch();
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -32,10 +30,6 @@ $config = $requete->fetch();
 
     <section id="PC-details">
         <div class="PC-details">
-            <div class="titre">
-                <h1> <?php echo $config['titre']; ?> </h1>
-                <p><?php echo $config['description'] ?></p>
-           </div>
             <div class="conteneur">
                 <div class="box1">
                     <img src="<?php echo $config['link-img'] ?>" alt="">
@@ -59,13 +53,8 @@ $config = $requete->fetch();
                     <p class="limit" >JE COMMANDE !</p>
                 </div>
            </div>
-           <div class="commentaire">
-                <p>Dernière mise à jour le <?php echo $config['date_maj'];?></p>
-                <p>BaDemBa.fr participe au Programme Partenaires d'Amazon EU, un programme d'affiliation permettant de percevoir une rémunération via des liens vers Amazon.fr</p>
-           </div>
         </div>
     </section>
-
     <?php include('../includes/bench.php') ?>
     <?php include('../includes/toppc.php') ?>
     <?php include('../includes/categ.php') ?>
