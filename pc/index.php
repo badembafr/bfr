@@ -66,8 +66,8 @@ $requete2 = $bdd->query("SELECT * FROM `config` WHERE pop='hight' ORDER BY prix 
                 </div>
                 <div class="box3">
                     <p><?php echo $config['prix'] ?>.00 €</p>
-                    <div class="btn-shop"><li><a href="<?php echo $config['link-pc']?>" target="blank"> <i class="fab fa-amazon"></i> COMMANDER</a></li></div>
-                    <div class="btn-shop-3"><li><a href="<?php echo $config['link-pc']?>" target="blank"> COMPOSANTS </a></li></div>
+                    <div class="btn-shop"><li><a href="<?php echo $config['link-pc']?>" > <i class="fab fa-amazon"></i> COMMANDER</a></li></div>
+                    <div class="btn-shop-3"><li><a href="<?php echo $config['link-pc']?>"> COMPOSANTS </a></li></div>
                 </div>
             </div>
         </div>
